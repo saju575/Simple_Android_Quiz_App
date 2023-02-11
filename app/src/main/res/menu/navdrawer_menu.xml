@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/rulesFragment"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@drawable/rules"
+        android:title="@string/rules" />
+    <item
+        android:id="@+id/aboutFragment"
+        android:checkable="true"
+        android:icon="@drawable/ic_twotone_quiz_24"
+        android:title="@string/about" />
+</menu>
